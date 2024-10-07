@@ -1,0 +1,4 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.

@@ -4,9 +4,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
 
     // RADIUS server configuration
-    $radius_server_ip = "192.168.15.254";
+    $radius_server_ip = "103.255.234.130";
     $radius_port = 1812;
-    $radius_secret = "your_shared_secret";  // Replace with your shared secret
+    $radius_secret = "jazenetworks";  // Replace with your shared secret
 
     // Initialize RADIUS connection
     $radius = radius_auth_open();
